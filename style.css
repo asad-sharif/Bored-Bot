@@ -1,11 +1,14 @@
-html,
-body {
+html {
     margin: 0;
     padding: 10px;
     user-select: none;
+    font-family: "Oxygen", sans-serif;
+
 }
 
 body {
+    margin-top: 4rem;
+    text-align: center;
     /* uigradients.com */
     background: #bdc3c7;
     /* fallback for old browsers */
@@ -14,16 +17,17 @@ body {
     background: linear-gradient(to top, #2c3e50, #bdc3c7);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+main {
     background-repeat: no-repeat;
     height: 100vh;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-evenly; */
-    font-family: "Oxygen", sans-serif;
-    text-align: center;
-    gap: 1rem;
-    margin-top: 3rem;
+    justify-content: space-around;
+    gap: 1rem; */
+    margin-top: 10rem;
 }
 
 h1 {
